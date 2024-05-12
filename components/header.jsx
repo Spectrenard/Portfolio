@@ -1,21 +1,45 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
 function Header() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [scrollTop, setScrollTop] = useState(0);
+  const [classes, setClasses] = useState(""); // ajout d'un état pour les classes
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollTop(window.scrollY);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (scrollTop === 0) {
+      setClasses(
+        "lg:w-full lg:text-[25vw] lg:top-1/4 transition-all duration-500"
+      );
+    } else {
+      setClasses("transition-all duration-500"); // suppression de la classe w-full lorsque scrollTop est différent de 0
+    }
+  }, [scrollTop]);
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
   };
 
   return (
-    <section className="flex flex-col justify-between h-screen px-4 py-2">
-      <nav className="flex mt-5 justify-between items-center overflow-hidden py-4">
-        <div className="text-titleWhite font-semibold text-5xl md:text-8xl h-12 flex place-items-center lg:fixed  top-8 left-7 animate-appears opacity-0 ">
-          <div className="overflow-hidden animate-appearsTitle1 opacity-0">
+    <section className="flex flex-col h-screen px-4 py-2">
+      <nav className="flex mt-5 justify-between items-centers py-4 ">
+        <div
+          className={`fixed z-50 text-titleWhite font-semibold text-[10vw] h-12 flex place-items-center animate-appears opacity-0 lg:mt-5 lg:fixed lg:top-5 lg:text-[3vw] ${classes}`}
+        >
+          <div className="overflow-hidden animate-appearsTitle1 opacity-0 flex">
             <span className="flex animate-fadeInTitle1  transform-none rotate-0 scale-100 opacity-100">
               S
             </span>
@@ -51,10 +75,39 @@ function Header() {
             </span>
           </div>
         </div>
+        {/* ****************NAV LINKS************* */}
+        <div className="flex items-center fixed right-5 top-5 max-md:hidden ">
+          <ul className="flex gap-9 overflow-visible items-center">
+            <li className=" text-lg text-titleWhite">
+              <Link href="/about-me">About me</Link>
+            </li>
+            <li className=" text-lg text-titleWhite">
+              <Link href="/my-works">Work</Link>
+            </li>
+            <li className=" text-lg text-titleWhite">
+              <Link href="/contact">Contact</Link>
+            </li>
+            <li>
+              <div className="flex py-4 px-6 bg-radiusBgGray text-titleWhite rounded-full gap-2 underline relative">
+                <span className="hidden text-black bg-gray-300 rounded-sm text-md absolute decoration-none">
+                  Mail has been copied !
+                </span>
+                <Image
+                  className="rounded-full md:h-38 w-full cover bg-no-repeat"
+                  src={"/copy.svg"}
+                  alt="copiedicon"
+                  height={18}
+                  width={18}
+                />
+                e.sahinnn61@gmail.com
+              </div>
+            </li>
+          </ul>
+        </div>
 
         <button
           onClick={toggleSidebar}
-          className="text-textWhite border-solid border rounded-3xl px-6 py-3 flex items-center gap-2 cursor-pointer animate-appearsAzra opacity-0"
+          className="fixed right-5 z-50 text-textWhite border-solid border rounded-3xl px-6 py-3 flex items-center gap-2 cursor-pointer animate-appearsAzra opacity-0 md:hidden"
         >
           <Image
             src={"/menu-open.svg"}
@@ -69,7 +122,7 @@ function Header() {
         <div
           className={`${
             sidebarOpen ? "translate-x-0" : "translate-x-full"
-          } fixed inset-0 bg-backgroundColor flex flex-col justify-between py-8 px-7 lg:hidden transition-transform ease-in-out duration-200 z-10`}
+          } fixed inset-0 bg-backgroundColor flex flex-col justify-between py-8 px-7 transition-transform ease-in-out duration-200 z-10 lg:hidden `}
         >
           <button
             className="bg-none border-none flex justify-end cursor-pointer"

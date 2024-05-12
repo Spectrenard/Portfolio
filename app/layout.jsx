@@ -25,7 +25,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={` ${brico.className} ${clash.variable}`}>
-      <body>{children}</body>
+      <body scroll-behavior="smooth">{children}</body>
     </html>
   );
 }
