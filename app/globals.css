@@ -1,33 +1,27 @@
+/* styles/globals.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  position: relative; /* Assurez-vous que la position est relative pour utiliser z-index */
+  --background-color: hsla(210, 7%, 12%, 1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+:root:before {
+  content: ""; /* Contenu vide pour la pseudo-classe */
+  position: absolute; /* Position absolue pour créer une couche supplémentaire */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../public/img/bg-img.png"); /* Chemin vers votre image d'arrière-plan */
+  z-index: 1; /* Ajout du z-index à l'image de fond */
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: var(--background-color);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+/* Autres styles globaux */

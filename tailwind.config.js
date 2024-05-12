@@ -7,10 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        clash: ["var(--font-clash),'sans-serif'"],
+        brico: ["var(--font-brico),'sans-serif'"],
+      },
+      colors: {
+        backgroundColor: "hsla(210, 7%, 12%, 1);",
+        cardbgGray: "hsla(216, 6%, 15%, 1)",
+        radiusBgGray: "hsla(210, 7%, 22%, 1)",
+        titleGray: "hsla(210, 7%, 42%, 1)",
+        textGray: "hsla(210, 7%, 52%, 1)",
+        footerDateTitle: "hsla(210, 7%, 62%, 1)",
+        textWhite: "hsla(200, 7%, 82%, 1)",
+        titleWhite: "hsla(200, 7%, 92%, 1);",
       },
     },
   },
