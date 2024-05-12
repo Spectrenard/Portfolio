@@ -22,10 +22,10 @@ function Header() {
   useEffect(() => {
     if (scrollTop === 0) {
       setClasses(
-        "lg:w-full lg:text-[25vw] lg:top-1/4 transition-all duration-500"
+        "lg:w-full lg:text-[25vw] lg:top-[20%] transition-all duration-600 md:w-full md:text-[24vw] md:top-[20%]"
       );
     } else {
-      setClasses("transition-all duration-500"); // suppression de la classe w-full lorsque scrollTop est différent de 0
+      setClasses("transition-all duration-600"); // suppression de la classe w-full lorsque scrollTop est différent de 0
     }
   }, [scrollTop]);
 
@@ -34,10 +34,13 @@ function Header() {
   };
 
   return (
-    <section className="flex flex-col h-screen px-4 py-2">
+    <section className="flex flex-col h-screen px-4 py-2 md:px5 md:py-3 lg:px-6 lg:py-4">
       <nav className="flex mt-5 justify-between items-centers py-4 ">
         <div
-          className={`fixed z-50 text-titleWhite font-semibold text-[10vw] h-12 flex place-items-center animate-appears opacity-0 lg:mt-5 lg:fixed lg:top-5 lg:text-[3vw] ${classes}`}
+          className={`fixed z-50 text-titleWhite font-bold text-[10vw] h-12 flex place-items-center animate-appears opacity-0 md:mt-8 md:top-0 md:fixed md:text-[4vw] lg:mt-8 lg:fixed lg:top-0 lg:text-[5vw] ${classes}`}
+          style={{
+            transition: "all 0.5s ease-in-out", // ajout d'une transition smooth
+          }}
         >
           <div className="overflow-hidden animate-appearsTitle1 opacity-0 flex">
             <span className="flex animate-fadeInTitle1  transform-none rotate-0 scale-100 opacity-100">
@@ -76,19 +79,19 @@ function Header() {
           </div>
         </div>
         {/* ****************NAV LINKS************* */}
-        <div className="flex items-center fixed right-5 top-5 max-md:hidden ">
+        <div className="flex items-center fixed right-8 top-8 max-md:hidden ">
           <ul className="flex gap-9 overflow-visible items-center">
-            <li className=" text-lg text-titleWhite">
+            <li className=" text-md text-titleWhite">
               <Link href="/about-me">About me</Link>
             </li>
-            <li className=" text-lg text-titleWhite">
+            <li className=" text-md text-titleWhite">
               <Link href="/my-works">Work</Link>
             </li>
-            <li className=" text-lg text-titleWhite">
+            <li className=" text-md text-titleWhite">
               <Link href="/contact">Contact</Link>
             </li>
             <li>
-              <div className="flex py-4 px-6 bg-radiusBgGray text-titleWhite rounded-full gap-2 underline relative">
+              <div className="flex py-3 px-5 bg-radiusBgGray text-titleWhite rounded-full gap-2 underline relative">
                 <span className="hidden text-black bg-gray-300 rounded-sm text-md absolute decoration-none">
                   Mail has been copied !
                 </span>
