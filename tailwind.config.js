@@ -32,12 +32,28 @@ module.exports = {
           "80%": { opacity: 0 },
           "100%": { opacity: 0 },
         },
+        fadeIn: {
+          // ajout des guillemets autour du nom de la keyframe
+          "0%": {
+            opacity: 0,
+            transform: "translateY(20px)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translateY(0)",
+          },
+        },
       },
       animation: {
         "pulse-dot":
           "pulse-dot 2s cubic-bezier(.455, 0.03, 0.515, 0.955) -0.4s infinite",
         "pulse-ring":
           "pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite",
+        fadeIn: {
+          // ajout des guillemets autour du nom de l'animation
+          duration: 0.5, // utiliser la propriété duration au lieu de animation-duration
+          delay: 0.5, // utiliser la propriété delay au lieu de animation-delay
+        },
       },
     },
   },
