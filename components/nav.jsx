@@ -15,7 +15,9 @@ function Nav() {
     <section className="flex flex-col justify-between h-screen px-4 py-2">
       <nav className="flex mt-5 justify-between ">
         <div className="text-titleWhite font-semibold text-5xl h-12 grid place-items-center lg:fixed  top-8 left-7 ">
-          Spectre
+          <div className="text-titleWhite font-semibold text-5xl h-12 grid place-items-center lg:fixed  top-8 left-7 ">
+            <Link href="/">Spectre</Link>
+          </div>
         </div>
         <button
           onClick={toggleSidebar}
