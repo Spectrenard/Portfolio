@@ -21,6 +21,24 @@ module.exports = {
         textWhite: "hsla(200, 7%, 82%, 1)",
         titleWhite: "hsla(200, 7%, 92%, 1);",
       },
+      keyframes: {
+        "pulse-dot": {
+          "0%": { transform: "scale(0.9)" },
+          "50%": { transform: "scale(1)" },
+          "100%": { transform: "scale(0.9)" },
+        },
+        "pulse-ring": {
+          "0%": { transform: "scale(0.33)" },
+          "80%": { opacity: 0 },
+          "100%": { opacity: 0 },
+        },
+      },
+      animation: {
+        "pulse-dot":
+          "pulse-dot 2s cubic-bezier(.455, 0.03, 0.515, 0.955) -0.4s infinite",
+        "pulse-ring":
+          "pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite",
+      },
     },
   },
   plugins: [],
