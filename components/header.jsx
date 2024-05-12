@@ -14,7 +14,7 @@ function Header() {
   return (
     <section className="flex flex-col justify-between h-screen px-4 py-2">
       <nav className="flex mt-5 justify-between items-center overflow-hidden py-4">
-        <div className="text-titleWhite font-semibold text-5xl h-12 flex place-items-center lg:fixed  top-8 left-7 animate-appears opacity-0 ">
+        <div className="text-titleWhite font-semibold text-5xl md:text-8xl h-12 flex place-items-center lg:fixed  top-8 left-7 animate-appears opacity-0 ">
           <div className="overflow-hidden animate-appearsTitle1 opacity-0">
             <span className="flex animate-fadeInTitle1  transform-none rotate-0 scale-100 opacity-100">
               S
@@ -105,8 +105,8 @@ function Header() {
         </div>
       </div>
       {/* ***************** Text part ***************** */}
-      <h1 className="max-w-screen-2xl text-textGray flex flex-wrap gap-x-2 gap-y-2 text-4xl font-clash ">
-        <span className="inline-flex gap-2 ">
+      <h1 className="max-w-screen-2xl text-textGray flex flex-wrap gap-x-2 gap-y-2 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-clash ">
+        <span className="inline-flex gap-2 items-center justify-center">
           <div className="overflow-hidden animate-appears3 opacity-0">
             <span className="flex animate-fadeInText  transform-none rotate-0 scale-100 opacity-100">
               I'm
@@ -120,7 +120,7 @@ function Header() {
           <div className="overflow-hidden animate-appears6 opacity-0">
             <span className="flex animate-fadeInText2 transform-none transition  rotate-0 scale-100 opacity-100">
               <Image
-                className="rounded-full"
+                className="rounded-full md:h-38 w-full "
                 src={"/avatar.png"}
                 alt="avatar"
                 height={38}
