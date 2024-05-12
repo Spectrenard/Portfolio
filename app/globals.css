@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
 :root {
   position: relative; /* Assurez-vous que la position est relative pour utiliser z-index */
   --background-color: hsla(210, 7%, 12%, 1);
@@ -16,7 +22,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("../public/img/bg-img.png"); /* Chemin vers votre image d'arrière-plan */
+  background-image: url("../public/bg-img.png"); /* Chemin vers votre image d'arrière-plan */
   z-index: 1; /* Ajout du z-index à l'image de fond */
 }
 
