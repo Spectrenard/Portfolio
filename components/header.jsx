@@ -22,10 +22,10 @@ function Header() {
   useEffect(() => {
     if (scrollTop === 0) {
       setClasses(
-        "md:w-full md:text-[23vw] md:top-[20%]  lg:w-full lg:text-[27vw] lg:top-[25%] transition-all duration-600"
+        "lg:w-full lg:text-[27vw] lg:top-[25%] transition-all duration-600 md:w-full md:text-[27vw] md:top-[25%]"
       );
     } else {
-      setClasses("transition-all duration-300"); // suppression de la classe w-full lorsque scrollTop est différent de 0
+      setClasses("transition-all duration-400"); // suppression de la classe w-full lorsque scrollTop est différent de 0
     }
   }, [scrollTop]);
 
@@ -37,7 +37,7 @@ function Header() {
     <section className="flex flex-col h-screen px-4 py-2 md:px5 md:py-3 lg:px-6 lg:py-4">
       <nav className="flex mt-5 justify-between items-centers py-4 ">
         <div
-          className={`fixed z-50 tracking-tighter text-titleWhite font-bold text-[10vw] h-12 flex place-items-center animate-appears opacity-0 md:mt-8 md:fixed md:top-0 md:text-[4vw]  lg:mt-8 lg:fixed lg:top-0 lg:text-[5vw] ${classes}`}
+          className={`tracking-tighter fixed z-50 text-titleWhite font-bold text-[10vw] h-12 flex place-items-center animate-appears opacity-0 md:mt-8 md:top-0 md:text-[3vw] md:fixed lg:mt-8 lg:fixed lg:top-0 lg:text-[3vw] ${classes}`}
           style={{
             transition: "all 0.5s ease-in-out", // ajout d'une transition smooth
           }}
@@ -161,7 +161,7 @@ function Header() {
         </div>
       </div>
       {/* ***************** Text part ***************** */}
-      <h1 className="max-w-screen-2xl text-textGray flex flex-wrap gap-x-4 gap-y-4 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-clash ">
+      <h1 className="max-w-screen-2xl text-textGray flex flex-wrap gap-x-2 gap-y-2 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-clash ">
         <span className="inline-flex gap-2 items-center justify-center">
           <div className="overflow-hidden animate-appears3 opacity-0">
             <span className="flex animate-fadeInText  transform-none rotate-0 scale-100 opacity-100">
@@ -176,7 +176,7 @@ function Header() {
           <div className="overflow-hidden animate-appears6 opacity-0">
             <span className="flex animate-fadeInText2 transform-none transition  rotate-0 scale-100 opacity-100">
               <Image
-                className="rounded-full w-full "
+                className="rounded-full md:h-38 w-full "
                 src={"/avatar.png"}
                 alt="avatar"
                 height={38}
