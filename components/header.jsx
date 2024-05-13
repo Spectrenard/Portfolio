@@ -37,7 +37,7 @@ function Header() {
     <section className="flex flex-col h-screen px-4 py-2 md:px5 md:py-3 lg:px-6 lg:py-4">
       <nav className="flex mt-5 justify-between items-centers py-4 ">
         <div
-          className={`tracking-tighter fixed z-50 text-titleWhite font-bold h-12 flex place-items-center animate-appears opacity-0 text-[10vw] md:mt-8 md:top-0 md:fixed md:text-[4vw] lg:mt-8 lg:fixed lg:top-0   ${classes}`}
+          className={`tracking-tighter fixed  z-40 text-titleWhite font-bold h-12 flex place-items-center animate-appears opacity-0 text-[10vw] md:mt-8 md:top-0 md:fixed md:text-[5vw] lg:mt-8 lg:fixed lg:top-0   ${classes}`}
           style={{
             transition: "all 0.5s ease-in-out", // ajout d'une transition smooth
           }}
@@ -79,7 +79,7 @@ function Header() {
           </div>
         </div>
         {/* ****************NAV LINKS************* */}
-        <div className="flex items-center fixed right-8 top-8 max-md:hidden ">
+        <div className="flex z-50 items-center fixed right-8 top-8 max-md:hidden ">
           <ul className="flex gap-9 overflow-visible items-center">
             <li className=" text-md text-titleWhite">
               <Link href="/about-me">About me</Link>
