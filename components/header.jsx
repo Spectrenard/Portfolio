@@ -37,7 +37,7 @@ function Header() {
     <section className="flex flex-col h-screen px-4 py-2 md:px5 md:py-3 lg:px-6 lg:py-4">
       <nav className="flex mt-5 justify-between items-centers py-4 ">
         <div
-          className={`tracking-tighter fixed z-50 text-titleWhite font-bold text-[10vw] h-12 flex place-items-center animate-appears opacity-0 md:mt-8 md:top-0 md:text-[3vw] md:fixed lg:mt-8 lg:fixed lg:top-0 lg:text-[3vw] ${classes}`}
+          className={`tracking-tighter fixed z-50 text-titleWhite font-bold text-[10vw] h-12 flex place-items-center animate-appears opacity-0 md:mt-8 md:top-0  md:fixed lg:mt-8 lg:fixed lg:top-0 lg:text-[3vw] ${classes}`}
           style={{
             transition: "all 0.5s ease-in-out", // ajout d'une transition smooth
           }}
