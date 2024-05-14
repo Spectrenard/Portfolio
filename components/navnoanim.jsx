@@ -3,37 +3,10 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
-function Nav() {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [scrollTop, setScrollTop] = useState(0);
+function NavNoAnim() {
   const [classes, setClasses] = useState("");
-  const router = useRouter();
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrollTop(window.scrollY);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []); // Cette fonction useEffect ne dépend pas de l'état ou des propriétés
-
-  useEffect(() => {
-    if (router.pathname === "/") {
-      if (scrollTop === 0) {
-        setClasses(
-          "lg:w-full lg:text-[27vw] lg:top-[25%] transition-all duration-600 md:w-full md:text-[26vw] md:top-[25%]"
-        );
-      } else {
-        setClasses("transition-all duration-1000");
-      }
-    } else {
-      setClasses("");
-    }
-  }, [scrollTop, router.pathname]); // Cette fonction useEffect dépend de scrollTop et du chemin d'accès de l'URL
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
     setSidebarOpen(!sidebarOpen);
@@ -160,4 +133,4 @@ function Nav() {
     </nav>
   );
 }
-export default Nav;
+export default NavNoAnim;

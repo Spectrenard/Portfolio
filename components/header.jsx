@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Nav from "./nav";
+import Nav from "./navanim";
 
 function Header() {
   return (
