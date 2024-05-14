@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Kasa",
+    "link": "kasa-theta-ten.vercel.app",
+    "github": "https://github.com/spectrenard/Kasa",
+    "cover": "",
+    "photos": ["", "", "", "", ""],
+    "description": [
+      "Kasa is an application for renting accommodations between individuals. It allows property owners to list their real estate for rent and tenants to find a place to rent.",
+      "The application consists of 3 pages: the homepage, the about page, and the detail page of a property. The application is responsive and was built using React with the assistance of SASS.",
+      "This project introduced me to the React framework and helped me understand how components, routes, and hooks work, particularly useState and useRef."
+    ],
+    "technologies": ["React", "SASS"],
+    "features": ["Routing", "display details of a property"],
+    "homepage": true
+  }
+]
