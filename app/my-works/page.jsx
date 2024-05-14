@@ -38,7 +38,7 @@ export default function Works() {
         </div>
         <div className="overflow-hidden animate-appears13 opacity-0">
           <span className="flex animate-fadeInText9 transform-none rotate-0 scale-100 opacity-100">
-            I've
+            I`ve
           </span>
         </div>
         <div className="overflow-hidden animate-appears14 opacity-0">
