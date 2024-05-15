@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import works from "../public/data/works.json";
 
 function NavNoAnim() {
   const [classes, setClasses] = useState("");
@@ -63,9 +64,12 @@ function NavNoAnim() {
           <li className=" text-md text-titleWhite">
             <Link href="/about-me">About me</Link>
           </li>
-          <li className=" text-md text-titleWhite">
-            <Link href="/my-works">Work</Link>
-          </li>
+          <Link href="/my-works">
+            <span className="text-lg relative text-textWhite">Work</span>
+            <span className="text-xs text-textWhite absolute top-2 ">
+              ({works.length})
+            </span>
+          </Link>
           <li className=" text-md text-titleWhite">
             <Link href="/contact">Contact</Link>
           </li>
