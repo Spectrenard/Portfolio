@@ -2,6 +2,9 @@
   {
     "id": 1,
     "name": "✦ Kasa",
+    "namesimple": "Kasa",
+    "date": "2024",
+    "title": "Development & Design for renting plateform.",
     "theme": "Property rental platform - 2024",
     "link": "kasa-theta-ten.vercel.app",
     "github": "https://github.com/spectrenard/Kasa",
@@ -19,6 +22,8 @@
   {
     "id": 2,
     "name": "✦ Mon vieux grimoire",
+    "namesimple": "Mon vieux grimoire",
+    "date": "2024",
     "theme": "Digital library - 2024",
     "github": "https://github.com/spectrenard/Kasa",
     "cover": "/Velare-thumbnail.webp",

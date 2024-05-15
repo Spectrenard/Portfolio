@@ -1,4 +1,5 @@
 import works from "../public/data/works.json";
+import Link from "next/link";
 import ProjectResume from "../components/projectResume";
 
 export default function Work() {
@@ -9,11 +10,13 @@ export default function Work() {
         {works.map((work) => (
           <li key={work.id} className="">
             <div className="">
-              <img
-                src={work.cover}
-                alt={work.name}
-                className="w-full max-h-[500px] h-full object-cover rounded-3xl"
-              />
+              <Link href={`/my-works/${work.id}`}>
+                <img
+                  src={work.cover}
+                  alt={work.name}
+                  className="w-full max-h-[500px] h-full object-cover rounded-3xl"
+                />
+              </Link>
               <ProjectResume work={work} />
             </div>
           </li>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ProjectResume({ work }) {
   return (
@@ -9,16 +10,18 @@ export default function ProjectResume({ work }) {
         </h3>
         <h4 className="text-textWhite md:text-md">{work.theme}</h4>
       </div>
-      <button className="bg-invisible flex justify-center items-centerr gap-2 text-x text-textWhite p-4 lg:py-3 lg:px-7 border-solid border rounded-full border-white ease-out">
-        <p className="text-lg max-lg:hidden">Learn more</p>
-        <Image
-          className="lg:ml-1 self-center"
-          src={"/images/learn.svg"}
-          alt="avatar"
-          height={20}
-          width={18}
-        />
-      </button>
+      <Link href={`/my-works/${work.id}`}>
+        <button className="bg-invisible flex justify-center items-center gap-2 text-x text-textWhite p-4 lg:py-3 lg:px-7 border-solid border rounded-full border-white ease-out">
+          <p className="text-lg max-lg:hidden">Learn more</p>
+          <Image
+            className="lg:ml-1 self-center"
+            src={"/images/learn.svg"}
+            alt="avatar"
+            height={20}
+            width={18}
+          />
+        </button>
+      </Link>
     </div>
   );
 }
