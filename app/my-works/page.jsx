@@ -1,12 +1,14 @@
 import NavNoAnim from "@/components/navnoanim";
 import works from "../../public/data/works.json";
+import ProjectResume from "@/components/projectResume";
+import Work from "@/components/work";
 
 export default function Works() {
   const featuredWorks = works.filter((work) => work.homepage);
   return (
     <div className="mx-7">
       <NavNoAnim />;
-      <h1 className="max-w-screen-md md:max-w-screen-sm text-textGray flex flex-wrap gap-x-2 gap-y-2 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-clash my-36">
+      <h1 className="max-w-screen-md md:max-w-screen-md text-textGray flex flex-wrap gap-x-3 gap-y-2 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-clash my-28">
         <div className="overflow-hidden animate-appears7 opacity-0">
           <span className="flex animate-fadeInText3 transform-none rotate-0 scale-100 opacity-100">
             Check
@@ -40,7 +42,7 @@ export default function Works() {
         </div>
         <div className="overflow-hidden animate-appears13 opacity-0">
           <span className="flex animate-fadeInText9 transform-none rotate-0 scale-100 opacity-100">
-            I`ve
+            I‘ve
           </span>
         </div>
         <div className="overflow-hidden animate-appears14 opacity-0">
@@ -65,7 +67,7 @@ export default function Works() {
           </span>
         </div>
       </h1>
-      <div className=" mx-auto p-4">
+      <div className=" mx-auto">
         <h1 className="max-w-screen-md md:max-w-screen-sm text-textGray flex flex-wrap gap-x-4 text-3xl md:text-5xl font-clash my-14">
           <div className="overflow-hidden animate-appears7 opacity-0">
             <span className="flex animate-fadeInText3 transform-none rotate-0 scale-100 opacity-100">
@@ -78,43 +80,7 @@ export default function Works() {
             </span>
           </div>
         </h1>
-        <ul className="list-none mb-4">
-          {works.map((work) => (
-            <li key={work.id} className="mb-4">
-              <h3 className="text-lg font-bold">{work.name}</h3>
-              <img
-                src={work.cover}
-                alt={work.name}
-                className="w-full h-48 object-cover rounded-t"
-              />
-              <p className="text-gray-600">{work.description.join(" ")}</p>
-              <ul className="list-none mb-4">
-                <li>
-                  <strong>Technologies:</strong> {work.technologies.join(", ")}
-                </li>
-                <li>
-                  <strong>Features:</strong> {work.features.join(", ")}
-                </li>
-              </ul>
-              <a
-                href={work.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800"
-              >
-                View Project
-              </a>
-              <a
-                href={work.github}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800"
-              >
-                View on GitHub
-              </a>
-            </li>
-          ))}
-        </ul>
+        <Work />
       </div>
     </div>
   );

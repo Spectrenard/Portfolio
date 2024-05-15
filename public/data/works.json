@@ -2,10 +2,11 @@
   {
     "id": 1,
     "name": "✦ Kasa",
+    "theme": "Property rental platform - 2024",
     "link": "kasa-theta-ten.vercel.app",
     "github": "https://github.com/spectrenard/Kasa",
-    "cover": "./PuzzleAI-thumbnail.webp",
-    "photos": ["./PuzzleAI-thumbnail.webp", "", "", "", ""],
+    "cover": "/PuzzleAI-thumbnail.webp",
+    "photos": ["/PuzzleAI-thumbnail.webp", "", "", "", ""],
     "description": [
       "Kasa is an application for renting accommodations between individuals. It allows property owners to list their real estate for rent and tenants to find a place to rent.",
       "The application consists of 3 pages: the homepage, the about page, and the detail page of a property. The application is responsive and was built using React with the assistance of SASS.",
@@ -18,9 +19,10 @@
   {
     "id": 2,
     "name": "✦ Mon vieux grimoire",
+    "theme": "Digital library - 2024",
     "github": "https://github.com/spectrenard/Kasa",
-    "cover": "./PuzzleAI-thumbnail.webp",
-    "photos": ["./PuzzleAI-thumbnail.webp", "", "", "", ""],
+    "cover": "/Velare-thumbnail.webp",
+    "photos": ["/PuzzleAI-thumbnail.webp", "", "", "", ""],
     "description": [
       "Kasa is an application for renting accommodations between individuals. It allows property owners to list their real estate for rent and tenants to find a place to rent.",
       "The application consists of 3 pages: the homepage, the about page, and the detail page of a property. The application is responsive and was built using React with the assistance of SASS.",

@@ -7,7 +7,7 @@ import Nav from "./navanim";
 
 function Header() {
   return (
-    <section className="flex flex-col h-screen px-4 py-2 md:px5 md:py-3 lg:px-6 lg:py-4">
+    <section className="flex flex-col h-screen px-4 py-2 md:p-6 lg:p-8">
       <Nav />
       <div className="gap-6 flex flex-col gap-10 h-full justify-end mb-7 ">
         <div className="text-textWhite flex items-center gap-3 w-fit py-3 px-7 bg-radiusBgGray rounded-3xl animate-appears3 animate-fadeInText opacity-0">
@@ -19,7 +19,7 @@ function Header() {
         </div>
       </div>
       {/* ***************** Text part ***************** */}
-      <h1 className="max-w-screen-2xl text-textGray flex flex-wrap gap-x-2 gap-y-2 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-clash ">
+      <h1 className="max-w-screen-2xl text-textGray flex flex-wrap gap-x-5 gap-y-2 text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-clash ">
         <span className="inline-flex gap-2 items-center justify-center">
           <div className="overflow-hidden animate-appears4 opacity-0">
             <span className="flex animate-fadeInText  transform-none rotate-0 scale-100 opacity-100">
