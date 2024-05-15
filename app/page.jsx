@@ -1,9 +1,9 @@
-import Header from "@/components/header";
+import Header from "../components/header";
 import works from "../public/data/works.json";
 import Image from "next/image";
 import Link from "next/link";
-import Work from "@/components/work";
-import Button from "@/components/ui/Button";
+import Work from "../components/work";
+import Button from "../components/ui/Button";
 
 export default function Home() {
   const featuredWorks = works.filter((work) => work.homepage);

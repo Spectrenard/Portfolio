@@ -21,38 +21,37 @@ function NavNoAnim() {
             transition: "all 0.3s ease-in-out", // ajout d'une transition smooth
           }}
         >
-          <div className="overflow-hidden animate-appearsTitle1 opacity-0 flex">
-            <span className="flex animate-fadeInTitle1  transform-none rotate-0 scale-100 opacity-100">
-              S
-            </span>
+          <div className="overflow-hidden ">
+            <span className="flex animate-slideSlow1 ">S</span>
           </div>
-          <div className="overflow-hidden animate-appearsTitle2 opacity-0">
-            <span className="flex animate-fadeInTitle2 transform-none rotate-0 scale-100 opacity-100">
-              p
-            </span>
+          <div className="overflow-hidden">
+            <span className="flex animate-slideSlow2 ">p</span>
           </div>
-          <div className="overflow-hidden animate-appearsTitle3 opacity-0">
-            <span className="flex animate-fadeInTitle3  transform-none rotate-0 scale-100 opacity-100">
+          <div className="overflow-hidden ">
+            <span
+              className="flex animate-slideSlow3  
+          "
+            >
               e
             </span>
           </div>
-          <div className="overflow-hidden animate-appearsTitle4 opacity-0">
-            <span className="flex animate-fadeInTitle4 transform-none rotate-0 scale-100 opacity-100">
+          <div className="overflow-hidden ">
+            <span className="flex animate-slideSlow4 transform-none rotate-0 scale-100 opacity-100">
               c
             </span>
           </div>
-          <div className="overflow-hidden animate-appearsTitle5 opacity-0">
-            <span className="flex animate-fadeInTitle5  transform-none rotate-0 scale-100 opacity-100">
+          <div className="overflow-hidden ">
+            <span className="flex animate-slideSlow5  transform-none rotate-0 scale-100 opacity-100">
               t
             </span>
           </div>
-          <div className="overflow-hidden animate-appearsTitle6 opacity-0">
-            <span className="flex animate-fadeInTitle6  transform-none rotate-0 scale-100 opacity-100">
+          <div className="overflow-hidden ">
+            <span className="flex animate-slideSlow6  transform-none rotate-0 scale-100 opacity-100">
               r
             </span>
           </div>
-          <div className="overflow-hidden animate-appearsTitle7 opacity-0">
-            <span className="flex animate-fadeInTitle7  transform-none rotate-0 scale-100 opacity-100">
+          <div className="overflow-hidden">
+            <span className="flex animate-slideSlow7 transform-none rotate-0 scale-100 opacity-100">
               e
             </span>
           </div>

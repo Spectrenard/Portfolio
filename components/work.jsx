@@ -1,5 +1,5 @@
 import works from "../public/data/works.json";
-import ProjectResume from "@/components/projectResume";
+import ProjectResume from "../components/projectResume";
 
 export default function Work() {
   const featuredWorks = works.filter((work) => work.homepage);

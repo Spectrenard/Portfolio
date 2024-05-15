@@ -56,49 +56,9 @@ module.exports = {
           "pulse-dot 2s cubic-bezier(.455, 0.03, 0.515, 0.955) -0.4s infinite",
         "pulse-ring":
           "pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite",
-        fadeIn: "fadeIn 0.5s ease-in-out",
-        fadeInText: "fadeIn 0.5s ease-in-out 2.5s forwards",
-        fadeInText1: "fadeIn 0.5s ease-in-out 2.6s forwards",
-        fadeInText2: "fadeIn 0.5s ease-in-out 2.7s forwards",
-        fadeInText3: "fadeIn 0.5s ease-in-out 2.8s forwards",
-        fadeInText4: "fadeIn 0.5s ease-in-out 2.9s forwards",
-        fadeInText5: "fadeIn 0.5s ease-in-out 3s forwards",
-        fadeInText6: "fadeIn 0.5s ease-in-out 3.1s forwards",
-        fadeInText7: "fadeIn 0.5s ease-in-out 3.2s forwards",
-        fadeInText8: "fadeIn 0.5s ease-in-out 3.3s forwards",
-        fadeInText9: "fadeIn 0.5s ease-in-out 3.4s forwards",
-        fadeInText10: "fadeIn 0.5s ease-in-out 3.5s forwards",
-        fadeInText11: "fadeIn 0.5s ease-in-out 3.6s forwards",
-        fadeInText12: "fadeIn 0.5s ease-in-out 3.7s forwards",
-        fadeInText13: "fadeIn 0.5s ease-in-out 3.8s forwards",
-        fadeInText14: "fadeIn 0.5s ease-in-out 3.9s forwards",
-        fadeInText15: "fadeIn 0.5s ease-in-out 4s forwards",
-        fadeInText16: "fadeIn 0.5s ease-in-out 4.1s forwards",
-        fadeInText17: "fadeIn 0.5s ease-in-out 4.2s forwards",
-        fadeInText18: "fadeIn 0.5s ease-in-out 4.3s forwards",
-        fadeInText19: "fadeIn 0.5s ease-in-out 4.4s forwards",
-        fadeInText20: "fadeIn 0.5s ease-in-out 4.5s forwards",
-        fadeInText21: "fadeIn 0.5s ease-in-out 4.6s forwards",
-        fadeInText22: "fadeIn 0.5s ease-in-out 4.7s forwards",
-        fadeInText23: "fadeIn 0.5s ease-in-out 4.8s forwards",
-        fadeInText24: "fadeIn 0.5s ease-in-out 4.9s forwards",
-        // Fade titre nav
-        fadeInTitle1: "fadeIn 0.8s ease-in-out 0.8s forwards",
-        fadeInTitle2: "fadeIn 0.7s ease-in-out 1s forwards",
-        fadeInTitle3: "fadeIn 0.7s ease-in-out 1.1s forwards",
-        fadeInTitle4: "fadeIn 0.7s ease-in-out 1.2s forwards",
-        fadeInTitle5: "fadeIn 0.7s ease-in-out 1.3s forwards",
-        fadeInTitle6: "fadeIn 0.7s ease-in-out 1.4s forwards",
-        fadeInTitle7: "fadeIn 0.7s ease-in-out 1.5s forwards",
-        appearsTitle1: "appear 0.3s ease-in-out 0.8s forwards",
-        appearsTitle2: "appear 0.3s ease-in-out 1s forwards",
-        appearsTitle3: "appear 0.3s ease-in-out 1.1s forwards",
-        appearsTitle4: "appear 0.3s ease-in-out 1.2s forwards",
-        appearsTitle5: "appear 0.3s ease-in-out 1.3s forwards",
-        appearsTitle6: "appear 0.3s ease-in-out 1.4s forwards",
-        appearsTitle7: "appear 0.3s ease-in-out 1.5s forwards",
+
         //
-        appears: "appear 0.8s ease-in-out forwards",
+        appears: "appear 0.9s ease-in-out forwards",
         appearsAzra: "appear 0.3s ease-in-out 1.2s forwards",
         appears1: "appear 0.3s ease-in-out 1.6s forwards",
         appears2: "appear 0.3s ease-in-out 1.9s forwards",
@@ -125,9 +85,102 @@ module.exports = {
         appears23: "appear 0.3s ease-in-out 4.4s forwards",
         appears24: "appear 0.3s ease-in-out 4.5s forwards",
         appears25: "appear 0.3s ease-in-out 4.6s forwards",
-        slideUp1: " slideUp 1s cubic-bezier(0.45, 0.64, 0.12, 1)0s both",
-        slideUp2: " slideUp 0.8s cubic-bezier(0.45, 0.64, 0.12, 1)0.3s both",
-        slideUp3: " slideUp 0.7s cubic-bezier(0.45, 0.64, 0.12, 1)0.6s both",
+        slideUp1: " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.1s both",
+        slideUp2:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.11s both",
+        slideUp3:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.15s both",
+        slideUp3:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.19s both",
+        slideUp4:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.23s both",
+        slideUp5:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.27s both",
+        slideUp6:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.31s both",
+        slideUp7:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.35s both",
+        slideUp8:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.39s both",
+        slideUp9:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.43s both",
+        slideUp10:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.47s both",
+        slideUp11:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.51s both",
+        slideUp12:
+          " slideUp 0.7s cubic-bezier((0.25, 0.46, 0.45, 0.94)0.55s both",
+        slideUp13:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.59s both",
+        slideUp14:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.63s both",
+        slideUp15:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.67s both",
+        slideUp16:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.71s both",
+        // SLIDE UP ACCUEIL
+        slideUps1:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.6s both",
+        slideUps2:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.64s both",
+        slideUps3:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.68s both",
+        slideUps3:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.72s both",
+        slideUps4:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.76s both",
+        slideUps5:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.80s both",
+        slideUps6:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.84s both",
+        slideUps7:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.88s both",
+        slideUps8:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.92s both",
+        slideUps9:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.96s both",
+        slideUps10: " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2s both",
+        slideUps11:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2.04s both",
+        slideUps12:
+          " slideUp 0.7s cubic-bezier((0.25, 0.46, 0.45, 0.94)2.08s both",
+        slideUps13:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2.12s both",
+        slideUps14:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2.16s both",
+        slideUps15:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2.20s both",
+        slideUps16:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2.24s both",
+        slideUps17:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2.28s both",
+        slideUps18:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2.32s both",
+        slideUps19:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2.36s both",
+        slideUps20:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2.40s both",
+        slideUps21:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2.44s both",
+        slideUps22:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2.48s both",
+        slideUps23:
+          " slideUp 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)2.52s both",
+
+        // Logo slide up
+        slideSlow1:
+          " slideUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)0.9s both",
+        slideSlow2: " slideUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)1s both",
+        slideSlow3:
+          " slideUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.1s both",
+        slideSlow4:
+          " slideUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.2s both",
+        slideSlow5:
+          " slideUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.3s both",
+        slideSlow6:
+          " slideUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.4s both",
+        slideSlow7:
+          " slideUp 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94)1.5s both",
       },
     },
   },
