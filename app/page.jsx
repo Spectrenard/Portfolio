@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Work from "../components/work";
 import Button from "../components/ui/Button";
+import Services from "../components/services";
+import Footer from "../components/footer";
 
 export default function Home() {
   const featuredWorks = works.filter((work) => work.homepage);
@@ -39,6 +41,8 @@ export default function Home() {
           </Link>
         </div>
         <Work />
+        <Services />
+        <Footer />
       </div>
     </div>
   );

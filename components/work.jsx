@@ -1,6 +1,7 @@
 import works from "../public/data/works.json";
 import Link from "next/link";
 import ProjectResume from "../components/projectResume";
+import Footer from "./footer";
 
 export default function Work() {
   const featuredWorks = works.filter((work) => work.homepage);
@@ -22,6 +23,7 @@ export default function Work() {
           </li>
         ))}
       </ul>
+      <Footer />
     </div>
   );
 }

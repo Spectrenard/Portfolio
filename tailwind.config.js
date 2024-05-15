@@ -5,6 +5,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
       fontFamily: {
@@ -20,6 +21,8 @@ module.exports = {
         footerDateTitle: "hsla(210, 7%, 62%, 1)",
         textWhite: "hsla(200, 7%, 82%, 1)",
         titleWhite: "hsla(200, 7%, 92%, 1);",
+        gradientBg:
+          "radial-gradient(137.45% 110.02% at 98.97% 1.47%, #34383C 0%, #242629 100%)",
       },
       keyframes: {
         "pulse-dot": {
