@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function ProjectResume({ work }) {
   return (
-    <div className="flex items-center justify-between my-5 mx-2">
+    <div className="flex items-center justify-between my-5 mx-2 lg:">
       <div>
         <h3 className="text-titleWhite md:text-xl lg:text-2xl mb-1">
           {work.name}

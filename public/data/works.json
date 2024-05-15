@@ -5,6 +5,8 @@
     "namesimple": "Kasa",
     "date": "2024",
     "title": "Development & Design for renting plateform.",
+    "stack": "React SCSS",
+    "services": "Design & Development",
     "theme": "Property rental platform - 2024",
     "link": "kasa-theta-ten.vercel.app",
     "github": "https://github.com/spectrenard/Kasa",
@@ -24,7 +26,11 @@
     "name": "✦ Mon vieux grimoire",
     "namesimple": "Mon vieux grimoire",
     "date": "2024",
+    "title": "Development of a library webapp",
+    "stack": "NodeJS Express",
+    "services": "Fullstack development",
     "theme": "Digital library - 2024",
+    "link": "kasa-theta-ten.vercel.app",
     "github": "https://github.com/spectrenard/Kasa",
     "cover": "/Velare-thumbnail.webp",
     "photos": ["/PuzzleAI-thumbnail.webp", "", "", "", ""],
@@ -33,8 +39,6 @@
       "The application consists of 3 pages: the homepage, the about page, and the detail page of a property. The application is responsive and was built using React with the assistance of SASS.",
       "This project introduced me to the React framework and helped me understand how components, routes, and hooks work, particularly useState and useRef."
     ],
-    "technologies": ["NodeJS", "Express"],
-    "features": ["Routing", "display details of a property"],
     "homepage": true
   }
 ]
