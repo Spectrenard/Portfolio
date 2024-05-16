@@ -60,20 +60,24 @@ function NavNoAnim() {
       </Link>
       {/* ****************NAV LINKS************* */}
       <div className="flex z-50 items-center fixed right-8 top-8 max-md:hidden ">
-        <ul className="flex gap-9 overflow-visible items-center">
-          <li className=" text-md text-titleWhite">
+        <ul className="flex gap-9 items-center overflow-hidden pr-7">
+          <li className="flex text-md text-titleWhite animate-slideUp2">
             <Link href="/about-me">About me</Link>
           </li>
-          <Link href="/my-works">
-            <span className="text-lg relative text-textWhite">Work</span>
-            <span className="text-xs text-textWhite absolute top-2 ">
-              ({works.length})
-            </span>
-          </Link>
-          <li className=" text-md text-titleWhite">
+          <li className="text-md text-titleWhite animate-slideUp3">
+            <Link href="/my-works">
+              <span className="text-lg relative ">Work</span>
+              <span className="text-xs text-textWhite absolute bottom-3 ">
+                ({works.length})
+              </span>
+            </Link>
+          </li>
+          <li className=" text-md text-titleWhite animate-slideUp4">
             <Link href="/contact">Contact</Link>
           </li>
-          <li>
+        </ul>
+        <div className="overflow-hidden">
+          <li className="list-none animate-slideUp4">
             <div className="flex py-3 px-5 bg-radiusBgGray text-titleWhite rounded-full gap-2 underline relative">
               <span className="hidden text-black bg-gray-300 rounded-sm text-md absolute decoration-none">
                 Mail has been copied !
@@ -88,7 +92,7 @@ function NavNoAnim() {
               e.sahinnn61@gmail.com
             </div>
           </li>
-        </ul>
+        </div>
       </div>
 
       <button

@@ -1,8 +1,39 @@
+"use client";
+
 import NavNoAnim from "@/components/navnoanim";
 import Socials from "@/components/ui/socials";
 import Image from "next/image";
 import ButtonForm from "@/components/ui/ButtonForm";
 import Footer from "@/components/footer";
+import { useState } from "react";
+
+function AccordionFAQ({ title, content }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleAccordion = () => {
+    setIsOpen(!isOpen);
+  };
+  return (
+    <div className="bg-cardbgGray p-7 rounded-3xl mb-4 w-full">
+      <h1
+        className="text-textWhite cursor-pointer text-lg md:text-xl flex justify-between items-center "
+        onClick={toggleAccordion}
+      >
+        {title}
+        <span className="text-textGray text-4xl font-brico font-thin transition-transform duration-200 transform">
+          {isOpen ? "-" : "+"}
+        </span>
+      </h1>
+      <div
+        className={`overflow-hidden transition-max-height duration-200 ease-in-out ${
+          isOpen ? "max-h-screen" : "max-h-0"
+        }`}
+      >
+        <div className="text-gray-400 max-sm:text-sm pt-2">{content}</div>
+      </div>
+    </div>
+  );
+}
 
 export default function About() {
   return (
@@ -29,7 +60,7 @@ export default function About() {
                 </div>
                 <div className="overflow-hidden">
                   <span className="flex animate-slideUp2 text-titleGray text-5xl lg:text-6xl">
-                    Im
+                    I‘m
                   </span>
                 </div>
 
@@ -83,7 +114,7 @@ export default function About() {
         </div>
       </div>
       {/* Services  */}
-      <div className="flex flex-col gap-8 font-medium my-44 ">
+      <div className="flex flex-col gap-8 font-medium my-24 ">
         <div className="text-titleGray text-4xl font-clash">
           <h3 className="">
             How my
@@ -153,6 +184,54 @@ export default function About() {
                   requires supervision and experience, which is why I support
                   the client throughout the entire process from start to finish.
                 </p>
+              </div>
+            </div>
+          </div>
+          {/* ************** FAQ **************$ */}
+          <div className="flex flex-col  md:flex-row   mt-20">
+            <div className="flex flex-col lg:w-5/12 gap-4">
+              <h1 className="text-5xl text-titleWhite font-clash ">F.A.Q.</h1>
+              <p className="text-textGray text-lg font-brico font-normal max-w-96 ">
+                The first stage is a conversation with the client, in which he
+                gets to know his needs, goals and vision. During this phase,
+                together we analyze the characteristics of the brand, its target
+                group, competition, values and the purpose of the project.
+              </p>
+              {/* CARD  */}
+              <div className="bg-cardbgGray p-7 rounded-3xl">
+                <h1 className="text-textWhite ">
+                  Do you still have any questions?
+                </h1>
+                <p className="text-textGray pt-1 pb-4">
+                  Contact me and I‘ll get back to you as soon as it‘s possible.
+                </p>
+                <div className="text-xs">
+                  <ButtonForm />
+                </div>
+              </div>
+            </div>
+            {/* FAQ  */}
+            <div className="w-full">
+              <div className="flex flex-col w-full gap-0 md:pl-10 max-sm:pt-8">
+                <AccordionFAQ
+                  title="What is the cost of a project?"
+                  content="The cost of designing a website's UI & UX, along with development, can vary significantly depending on several factors, such as the complexity of the project, the scope of the project, the experience of the agency or designer, location, and additional services.
+
+  Generally speaking, the cost can range from several thousand to fives o thousands of euros."
+                />
+                <AccordionFAQ
+                  title="Do you design e-commerce websites, and what features can be included?"
+                  content="Yes, I design e-commerce website and I also take care of their features. There are many different tools that you canuse within e-commerce website design, depending on your needs and brand specifications."
+                />
+
+                <AccordionFAQ
+                  title="How long does it typically take to complete a website project?"
+                  content="The time needed for design and developing, e.g. an e-commerce website, may take from 1 to 2 weeks and approximately the same amount of time for development. It is also worth taking into account additional time for tests, corrections and final adaptation of the project to the client's needs."
+                />
+                <AccordionFAQ
+                  title="Are the websites you make mobile-responsive?"
+                  content="Yes, all the websites I create are designed to be mobile-responsive to ensure a seamless user experience across different devices."
+                />
               </div>
             </div>
           </div>

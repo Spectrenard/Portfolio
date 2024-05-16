@@ -11,7 +11,7 @@ export default function ProjectResume({ work }) {
         <h4 className="text-textWhite md:text-md">{work.theme}</h4>
       </div>
       <Link href={`/my-works/${work.id}`}>
-        <button className="bg-invisible flex justify-center items-center gap-2 text-x text-textWhite p-4 lg:py-3 lg:px-7 border-solid border rounded-full border-white ease-out">
+        <button className="bg-invisible flex justify-center items-center gap-2 text-x text-textWhite p-4 lg:py-3 lg:px-7 border-solid border rounded-full border-white ease-out transition duration-100 hover:bg-cardbgGray hover:border-cardbgGray">
           <p className="text-lg max-lg:hidden">Learn more</p>
           <Image
             className="lg:ml-1 self-center"
