@@ -3,6 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import Socials from "./ui/socials";
+import ButtonForm from "./ui/ButtonForm";
 
 export default function Footer() {
   const [copied, setCopied] = useState(false);
@@ -40,16 +42,7 @@ export default function Footer() {
               about your project
             </div>
             <div className="flex gap-7 max-md:flex-col md:items-center">
-              <button className="flex gap-3 px-5 py-3 text-black rounded-full bg-textWhite items-center max-md:max-w-[166px]">
-                <Link href="/contact">Fill the form</Link>
-                <Image
-                  className=""
-                  src={"/images/send-plane.svg"}
-                  height={23}
-                  width={23}
-                  alt="sendicon"
-                />
-              </button>
+              <ButtonForm />
               <h2 className=" text-textGray flex relative">
                 or copy an email:{" "}
                 <span
@@ -115,44 +108,7 @@ export default function Footer() {
 
           <div className="">
             <h1 className="text-footerDateTitle mb-4">Socials</h1>
-            <ul className="flex max-md:flex-col gap-8">
-              <li className="flex text-titleWhite gap-2">
-                <Link
-                  href="https://github.com/votre-nom-d-utilisateur"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="flex items-center">
-                    <Image
-                      className="filter invert"
-                      src={"/images/github.svg"}
-                      height={23}
-                      width={23}
-                      alt="githubicon"
-                    />
-                    <span className="ml-2">Github</span>
-                  </span>
-                </Link>
-              </li>
-              <li className="flex text-titleWhite gap-2">
-                <Link
-                  href="https://www.linkedin.com/in/votre-nom-d-utilisateur/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="flex items-center">
-                    <Image
-                      className="text-red-300"
-                      src={"/images/LinkedIn.svg"}
-                      height={23}
-                      width={23}
-                      alt="linkedinicon"
-                    />
-                    <span className="ml-2">LinkedIn</span>
-                  </span>
-                </Link>
-              </li>
-            </ul>
+            <Socials />
           </div>
         </div>
       </div>

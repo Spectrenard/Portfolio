@@ -1,0 +1,47 @@
+import Image from "next/image";
+import Link from "next/link";
+
+export default function Socials() {
+  return (
+    <div className="">
+      <ul className="flex max-md:flex-col gap-8">
+        <li className="flex text-titleWhite gap-2">
+          <Link
+            href="https://github.com/votre-nom-d-utilisateur"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="flex items-center">
+              <Image
+                className="filter invert"
+                src={"/images/github.svg"}
+                height={23}
+                width={23}
+                alt="githubicon"
+              />
+              <span className="ml-2">Github</span>
+            </span>
+          </Link>
+        </li>
+        <li className="flex text-titleWhite gap-2">
+          <Link
+            href="https://www.linkedin.com/in/votre-nom-d-utilisateur/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="flex items-center">
+              <Image
+                className="text-red-300"
+                src={"/images/LinkedIn.svg"}
+                height={23}
+                width={23}
+                alt="linkedinicon"
+              />
+              <span className="ml-2">LinkedIn</span>
+            </span>
+          </Link>
+        </li>
+      </ul>
+    </div>
+  );
+}
