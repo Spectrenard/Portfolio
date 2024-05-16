@@ -9,8 +9,8 @@ function Header() {
   return (
     <section className="flex flex-col h-screen px-4 py-2 md:p-6 lg:p-8">
       <Nav />
-      <div className="gap-6 flex flex-col  h-full justify-end mb-7 ">
-        <div className="text-textWhite flex items-center gap-3 w-fit py-3 px-7 bg-radiusBgGray rounded-3xl opacity-0">
+      <div className="gap-6 flex flex-col  h-full justify-end mb-7 overflow-hidden">
+        <div className="text-textWhite animate-slideUps20 flex items-center gap-3 w-fit py-3 px-7 bg-radiusBgGray rounded-3xl opacity-0 ">
           <div className="relative w-3 h-3 ">
             <div className="absolute w-[200%] h-[200%] border-box -left-1/2 -top-1/2 border-solid rounded-full bg-green-500 animate-pulse-ring"></div>
             <div className="absolutew-full h-full border-box border-solid rounded-full bg-green-500 animate-pulse-dot"></div>

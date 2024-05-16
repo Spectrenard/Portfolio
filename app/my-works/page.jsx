@@ -2,11 +2,12 @@ import NavNoAnim from "../../components/navnoanim";
 import works from "../../public/data/works.json";
 import ProjectResume from "../../components/projectResume";
 import Work from "../../components/work";
+import Footer from "../../components/footer";
 
 export default function Works() {
   const featuredWorks = works.filter((work) => work.homepage);
   return (
-    <div className="mx-7">
+    <div className="mx-7 mb-7">
       <NavNoAnim />;
       <h1 className="max-w-screen-md md:max-w-screen-md text-textGray flex flex-wrap gap-x-3 gap-y-2 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-clash my-28">
         <div className="overflow-hidden ">
@@ -80,8 +81,11 @@ export default function Works() {
             </span>
           </div>
         </h1>
-        <Work />
+        <div className="mb-20">
+          <Work />
+        </div>
       </div>
+      <Footer />
     </div>
   );
 }

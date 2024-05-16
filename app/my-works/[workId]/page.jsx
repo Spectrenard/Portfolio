@@ -50,17 +50,17 @@ const WorkPage = () => {
             <p className="text-footerDateTitle text-xl">Name</p>
             <span className="text-xl text-textWhite"> {work.namesimple}</span>
           </div>
-          <div className="border-b border-b-[0.05px] border-textGray"></div>
+          <div className="border-b-[0.05px] border-textGray"></div>
           <div className="flex justify-between w-full px-4">
             <p className="text-footerDateTitle text-xl">Services</p>
             <span className="text-xl text-textWhite">{work.services}</span>
           </div>
-          <div className="border-b border-b-[0.05px] border-textGray"></div>
+          <div className="border-b-[0.05px] border-textGray"></div>
           <div className="flex justify-between w-full px-4">
             <p className="text-footerDateTitle text-xl">Year</p>
             <span className="text-xl text-textWhite">{work.date}</span>
           </div>
-          <div className="border-b border-b-[0.05px] border-textGray"></div>
+          <div className=" border-b-[0.05px] border-textGray"></div>
           <div className="flex justify-between w-full px-4">
             <p className="text-footerDateTitle text-xl">Site</p>
             <a href={work.link} target="_blank" rel="noopener noreferrer">

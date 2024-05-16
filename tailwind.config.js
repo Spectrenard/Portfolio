@@ -23,7 +23,11 @@ module.exports = {
         titleWhite: "hsla(200, 7%, 92%, 1);",
         gradientBg:
           "radial-gradient(137.45% 110.02% at 98.97% 1.47%, #34383C 0%, #242629 100%)",
+        bgGradientRadial: {
+          radial: "137.45% 110.02% at 98.97% 1.47%, #34383C 0%, #242629 100%",
+        },
       },
+
       keyframes: {
         "pulse-dot": {
           "0%": { transform: "scale(0.9)" },

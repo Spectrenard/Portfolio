@@ -36,7 +36,7 @@ function Nav() {
   };
 
   return (
-    <nav className="flex mt-5 justify-between items-centers ">
+    <nav className="flex mt-5 justify-between items-centers  h-10">
       <Link href="/">
         <div
           className={`tracking-tighter fixed md:z-40 text-titleWhite font-bold h-12 flex place-items-center animate-appears opacity-0 text-[7vw] md:mt-8 md:top-0 md:fixed md:text-[4vw] lg:mt-8 lg:fixed lg:top-0 ${classes}`}
