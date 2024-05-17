@@ -17,7 +17,7 @@ export default function Services() {
             <div className="flex flex-col gap-8 ">
               <Image
                 className="rounded-2xl p-4 bg-white"
-                src={"/images/Signature.svg"}
+                src={"/images/signature.svg"}
                 alt="avatar"
                 height={50}
                 width={70}
