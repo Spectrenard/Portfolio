@@ -37,7 +37,7 @@ function Nav() {
   };
 
   return (
-    <nav className="flex mt-5 justify-between items-centers  h-10">
+    <nav className="flex mt-5 justify-between items-centers z-50  h-10">
       <Link href="/">
         <div
           className={`tracking-tighter fixed md:z-40 text-titleWhite font-bold h-12 flex place-items-center animate-appears opacity-0 text-[7vw] md:mt-8 md:top-0 md:fixed md:text-[4vw] lg:mt-8 lg:fixed lg:top-0 ${classes}`}
@@ -125,7 +125,7 @@ function Nav() {
       <div
         className={`${
           sidebarOpen ? "translate-x-0" : "translate-x-full"
-        } fixed inset-0 bg-backgroundColor flex flex-col justify-between py-8 px-7 transition-transform ease-in-out duration-200 z-10 lg:hidden `}
+        } fixed inset-0 bg-backgroundColor flex flex-col  py-8 px-7 transition-transform ease-in-out duration-200 z-10 lg:hidden `}
       >
         <button
           className="bg-none border-none flex justify-end cursor-pointer"
@@ -138,7 +138,7 @@ function Nav() {
             width={38}
           />
         </button>
-        <ul className="flex flex-col overflow-visible">
+        <ul className="flex flex-col overflow-visible relative top-0">
           <li className="mb-9 text-6xl text-titleWhite">
             <Link href="/about-me">About me</Link>
           </li>

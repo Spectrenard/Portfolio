@@ -23,7 +23,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <div className="p-0 animate-slideUp4">
+    <div className="p-0 animate-slideUp4 z-0">
       <div className="p-9 flex flex-col gap-48 rounded-3xl bg-gradient-to-r to-[#34383C] from-[#242629] via-[#242629]">
         <div className="flex lg:justify-between ">
           <div className="flex flex-col w-full gap-7 ">
@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
             <div className="flex gap-7 max-md:flex-col md:items-center">
               <ButtonForm />
-              <h2 className=" text-textGray flex relative">
+              <h2 className=" text-textGray flex relative max-sm:flex-col">
                 or copy an email: <Email />
               </h2>
             </div>

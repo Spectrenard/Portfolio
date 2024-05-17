@@ -18,7 +18,7 @@ function NavNoAnim() {
     <nav className="flex mt-5 justify-between items-centers ">
       <Link href="/">
         <div
-          className={`tracking-tighter fixed md:z-40 text-titleWhite font-bold h-12 flex place-items-center animate-appears opacity-0 text-[7vw] md:mt-8 md:top-0 md:fixed md:text-[4vw] lg:mt-8 lg:fixed lg:top-0 ${classes}`}
+          className={`tracking-tighter z-50 fixed md:z-40 text-titleWhite font-bold h-12 flex place-items-center animate-appears opacity-0 text-[7vw] md:mt-8 md:top-0 md:fixed md:text-[4vw] lg:mt-8 lg:fixed lg:top-0 ${classes}`}
           style={{
             transition: "all 0.3s ease-in-out", // ajout d'une transition smooth
           }}
@@ -88,7 +88,7 @@ function NavNoAnim() {
 
       <button
         onClick={toggleSidebar}
-        className="fixed right-5 md:z-50 text-textWhite border-solid border rounded-3xl px-6 py-3 flex items-center gap-2 cursor-pointer animate-appearsAzra opacity-0 md:hidden"
+        className="fixed right-5 z-50 md:z-50 text-textWhite border-solid border rounded-3xl px-6 py-3 flex items-center gap-2 cursor-pointer animate-appearsAzra opacity-0 md:hidden"
       >
         <Image
           src={"/menu-open.svg"}

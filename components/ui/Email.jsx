@@ -15,7 +15,7 @@ export default function Email() {
   return (
     <div>
       <span
-        className="underline text-textWhite flex ml-2 relative items-center"
+        className="underline text-textWhite flex max-sm:m-0 ml-2 relative items-center"
         onClick={copyEmailToClipboard}
         style={{ cursor: "pointer" }}
       >
