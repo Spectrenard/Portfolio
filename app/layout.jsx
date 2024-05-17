@@ -20,6 +20,9 @@ const clash = localfont({
 export const metadata = {
   title: "SAHIN Elyesa",
   description: "Elyesa's Portfolio",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
