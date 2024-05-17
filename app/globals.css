@@ -16,13 +16,14 @@
 }
 
 :root:before {
-  content: ""; /* Contenu vide pour la pseudo-classe */
-  position: absolute; /* Position absolue pour créer une couche supplémentaire */
+  content: "";
+  position: fixed; /* Changement de absolute à fixed */
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background-image: url("../public/bg-img.png"); /* Chemin vers votre image d'arrière-plan */
+  height: 100%; /* Changement de 100% à 100vh pour couvrir la hauteur de la viewport */
+  background-image: url("../public/bg-img.png");
+
   z-index: -1;
 }
 
