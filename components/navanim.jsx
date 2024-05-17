@@ -40,7 +40,7 @@ function Nav() {
     <nav className="flex mt-5 justify-between items-centers z-50  h-10">
       <Link href="/">
         <div
-          className={`tracking-tighter fixed md:z-40 text-titleWhite font-bold h-12 flex place-items-center animate-appears opacity-0 text-[7vw] md:mt-8 md:top-0 md:fixed md:text-[4vw] lg:mt-8 lg:fixed lg:top-0 ${classes}`}
+          className={`tracking-tighter fixed md:z-40 text-titleWhite font-bold h-12 flex place-items-center animate-appears max-sm:text-[8vw] max-lg:text-[4vw] opacity-0 md:mt-8 md:top-0 md:fixed text-[2vw] lg:mt-8 lg:fixed lg:top-0 ${classes}`}
           style={{
             transition: "all 0.3s ease-in-out", // ajout d'une transition smooth
           }}
