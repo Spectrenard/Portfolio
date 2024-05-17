@@ -5,19 +5,11 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import Socials from "./ui/socials";
 import ButtonForm from "./ui/ButtonForm";
+import Email from "./ui/Email";
 
 export default function Footer() {
-  const [copied, setCopied] = useState(false);
   const [currentTime, setCurrentTime] = useState("");
 
-  const copyEmailToClipboard = () => {
-    const email = "e.sahinnn61@gmail.com";
-    navigator.clipboard.writeText(email);
-    setCopied(true);
-    setTimeout(() => {
-      setCopied(false);
-    }, 2000);
-  };
   useEffect(() => {
     const updateTime = () => {
       const date = new Date();
@@ -44,26 +36,7 @@ export default function Footer() {
             <div className="flex gap-7 max-md:flex-col md:items-center">
               <ButtonForm />
               <h2 className=" text-textGray flex relative">
-                or copy an email:{" "}
-                <span
-                  className="underline text-textWhite flex ml-2 relative items-center"
-                  onClick={copyEmailToClipboard}
-                  style={{ cursor: "pointer" }}
-                >
-                  e.sahinnn61@gmail.com
-                  <Image
-                    className="ml-2"
-                    src={"/copy.svg"}
-                    height={20}
-                    width={20}
-                    alt="Copy Email"
-                  />
-                </span>
-                {copied && (
-                  <span className="absolute max-md:left-32 top-8 md:right-4 bg-titleWhite text-xs p-3 ml-2 text-black rounded-xl">
-                    Mail has been copied !
-                  </span>
-                )}
+                or copy an email: <Email />
               </h2>
             </div>
           </div>

@@ -16,10 +16,12 @@ const WorkPage = () => {
   return (
     <div className="md:mt-28 p-8 ">
       <NavNoAnim />
-      <div className="text-textWhite text-2xl md:text-7xl font-clash flex justify-between pb-28 md:pb-56 max-md:mt-28">
-        <h1 className="font-medium">{work.namesimple}</h1>
-        <h2 className="font-medium">{work.date}</h2>
+
+      <div className="opacity-0  animate-appears  text-textWhite text-2xl md:text-7xl font-clash flex justify-between pb-28 md:pb-56 max-md:mt-28">
+        <h1 className="flex font-medium opacity-100">{work.namesimple}</h1>
+        <h2 className="flex ont-medium opacity-100">{work.date}</h2>
       </div>
+
       <div className="flex justify-between items-center">
         <div>
           <span className="text-textWhite text-xl md:text-4xl">
@@ -43,28 +45,31 @@ const WorkPage = () => {
         <div className="max-w-screen-md md:max-w-screen-md text-textGray flex flex-wrap gap-x-3 gap-y-2 text-3xl sm:text-3xl lg:text-4xl xl:text-5xl font-clash md:pr-10 mb-10 font-medium  md:w-11/12 lg:w-6/12">
           <span className="">Project</span>
           <span className="text-titleWhite">Details</span>
-          <p className="text-xl pt-7">{work.description}</p>
+          <p className=" text-base md:text-xl pt-7">{work.description}</p>
         </div>
         <div className="flex flex-col w-full gap-9 mt-8 ">
           <div className="flex justify-between w-full px-4">
-            <p className="text-footerDateTitle text-xl">Name</p>
-            <span className="text-xl text-textWhite"> {work.namesimple}</span>
+            <p className="text-footerDateTitle md:text-xl">Name</p>
+            <span className="md:text-xl text-textWhite">
+              {" "}
+              {work.namesimple}
+            </span>
           </div>
           <div className="border-b-[0.05px] border-textGray"></div>
           <div className="flex justify-between w-full px-4">
-            <p className="text-footerDateTitle text-xl">Services</p>
-            <span className="text-xl text-textWhite">{work.services}</span>
+            <p className="text-footerDateTitle md:text-xl">Services</p>
+            <span className="md:text-xl text-textWhite">{work.services}</span>
           </div>
           <div className="border-b-[0.05px] border-textGray"></div>
           <div className="flex justify-between w-full px-4">
-            <p className="text-footerDateTitle text-xl">Year</p>
-            <span className="text-xl text-textWhite">{work.date}</span>
+            <p className="text-footerDateTitle md:text-xl">Year</p>
+            <span className="md:text-xl text-textWhite">{work.date}</span>
           </div>
           <div className=" border-b-[0.05px] border-textGray"></div>
           <div className="flex justify-between w-full px-4">
-            <p className="text-footerDateTitle text-xl">Site</p>
+            <p className="text-footerDateTitle md:text-xl">Site</p>
             <a href={work.link} target="_blank" rel="noopener noreferrer">
-              <div className="flex text-textWhite underline text-xl">
+              <div className="flex text-textWhite underline md:text-xl">
                 Visit website
                 <Image
                   className=""

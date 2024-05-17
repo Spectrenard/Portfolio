@@ -17,18 +17,17 @@ export default function Services() {
             <div className="flex flex-col gap-8 ">
               <Image
                 className="rounded-2xl p-4 bg-white"
-                src={"/images/uxdesign.svg"}
+                src={"/images/Signature.svg"}
                 alt="avatar"
                 height={50}
                 width={70}
               />
-              <h1 className="text-2xl font-medium text-titleWhite ">
-                UX Design
-              </h1>
+              <h1 className="text-2xl font-medium text-titleWhite ">Design</h1>
               <p className="text-textGray">
-                I create lo-fi mock-ups, conduct internal workshops, analyze
-                data, create personas, and propose A/B test hypotheses to
-                improve sales effectiveness.
+                Crafting intuitive and visually stunning interfaces that delight
+                users and elevate your brand. From wireframing to high-fidelity
+                prototypes, I create user-centered designs that drive engagement
+                and conversion.
               </p>
             </div>
           </div>
@@ -42,13 +41,12 @@ export default function Services() {
                 height={50}
                 width={70}
               />
-              <h1 className="text-2xl font-medium text-titleWhite">
-                UX Design
-              </h1>
+              <h1 className="text-2xl font-medium text-titleWhite">SEO</h1>
               <p className="text-textGray">
-                I create lo-fi mock-ups, conduct internal workshops, analyze
-                data, create personas, and propose A/B test hypotheses to
-                improve sales effectiveness.
+                Improve your online visibility and drive more traffic to your
+                website. I‘ll optimize your website‘s structure, content, and
+                meta tags to increase search engine rankings, boost organic
+                traffic, and enhance your online presence.
               </p>
             </div>
           </div>
@@ -57,18 +55,19 @@ export default function Services() {
             <div className="flex flex-col gap-8">
               <Image
                 className="rounded-2xl p-4 bg-white"
-                src={"/images/uxdesign.svg"}
+                src={"/images/developicon.svg"}
                 alt="avatar"
                 height={50}
                 width={70}
               />
               <h1 className="text-2xl font-medium text-titleWhite">
-                UX Design
+                Development
               </h1>
               <p className="text-textGray">
-                I create lo-fi mock-ups, conduct internal workshops, analyze
-                data, create personas, and propose A/B test hypotheses to
-                improve sales effectiveness.
+                Bringing your vision to life with robust, scalable, and
+                maintainable code that meets your business needs. I use the
+                latest technologies to build fast, secure, and reliable
+                solutions that drive results.
               </p>
             </div>
           </div>

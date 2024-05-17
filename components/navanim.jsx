@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import works from "../public/data/works.json";
+import Email from "./ui/Email";
 
 function Nav() {
   const [scrollTop, setScrollTop] = useState(0);
@@ -98,20 +99,10 @@ function Nav() {
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
-        <div className="overflow-hidden">
-          <li className="list-none animate-slideUp4">
-            <div className="flex py-3 px-5 bg-radiusBgGray text-titleWhite rounded-full gap-2 underline relative">
-              <span className="hidden text-black bg-gray-300 rounded-sm text-md absolute decoration-none">
-                Mail has been copied !
-              </span>
-              <Image
-                className="rounded-full md:h-38 w-full cover bg-no-repeat"
-                src={"/copy.svg"}
-                alt="copiedicon"
-                height={18}
-                width={18}
-              />
-              e.sahinnn61@gmail.com
+        <div className=" animate-appears4 opacity-0">
+          <li className="list-none">
+            <div className="flex py-3 px-5  opacity-100 bg-radiusBgGray text-titleWhite rounded-full gap-2 underline relative">
+              <Email />
             </div>
           </li>
         </div>

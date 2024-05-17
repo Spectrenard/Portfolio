@@ -53,31 +53,31 @@ export default function About() {
                     alt="avataricon"
                   />
                   <div className="overflow-hidden">
-                    <span className="flex animate-slideUp1 text-titleGray text-5xl lg:text-6xl">
+                    <span className="flex animate-slideUp1 text-titleGray text-4xl lg:text-6xl">
                       Hello,
                     </span>
                   </div>
                 </div>
                 <div className="overflow-hidden">
-                  <span className="flex animate-slideUp2 text-titleGray text-5xl lg:text-6xl">
+                  <span className="flex animate-slideUp2 text-titleGray text-4xl lg:text-6xl">
                     I‘m
                   </span>
                 </div>
 
                 <div className="overflow-hidden">
-                  <span className="flex animate-slideUp3 text-titleWhite text-5xl lg:text-6xl">
+                  <span className="flex animate-slideUp3 text-titleWhite text-4xl lg:text-6xl">
                     Elyesa
                   </span>
                 </div>
 
                 <div className="overflow-hidden ">
-                  <span className="flex animate-slideUp4 text-titleWhite text-5xl lg:text-6xl">
+                  <span className="flex animate-slideUp4 text-titleWhite text-4xl lg:text-6xl">
                     Web
                   </span>
                 </div>
 
                 <div className="overflow-hidden">
-                  <span className="flex animate-slideUp5 text-titleWhite text-5xl lg:text-6xl">
+                  <span className="flex animate-slideUp5 text-titleWhite text-4xl lg:text-6xl">
                     Developer
                   </span>
                 </div>
@@ -115,7 +115,7 @@ export default function About() {
       </div>
       {/* Services  */}
       <div className="flex flex-col gap-8 font-medium my-24 ">
-        <div className="text-titleGray text-4xl font-clash">
+        <div className="text-titleGray text-3xl md:text-4xl font-clash">
           <h3 className="">
             How my
             <span className="text-titleWhite px-2">Process</span>

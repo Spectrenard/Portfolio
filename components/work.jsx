@@ -14,7 +14,7 @@ export default function Work() {
                 <img
                   src={work.cover}
                   alt={work.name}
-                  className="w-full max-h-[500px] h-full object-cover rounded-3xl"
+                  className="w-full max-h-[500px] h-full object-cover rounded-3xl animate-appearsAzra opacity-0"
                 />
               </Link>
               <ProjectResume work={work} />

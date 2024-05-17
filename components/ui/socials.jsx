@@ -7,7 +7,7 @@ export default function Socials() {
       <ul className="flex max-md:flex-col gap-8">
         <li className="flex text-titleWhite gap-2">
           <Link
-            href="https://github.com/votre-nom-d-utilisateur"
+            href="https://github.com/Spectrenard"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -25,7 +25,7 @@ export default function Socials() {
         </li>
         <li className="flex text-titleWhite gap-2">
           <Link
-            href="https://www.linkedin.com/in/votre-nom-d-utilisateur/"
+            href="https://www.linkedin.com/in/elyesa-s-858205304/"
             target="_blank"
             rel="noopener noreferrer"
           >

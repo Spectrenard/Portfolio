@@ -13,9 +13,7 @@
     "cover": "/PuzzleAI-thumbnail.webp",
     "photos": ["/PuzzleAI-thumbnail.webp", "", "", "", ""],
     "description": [
-      "Kasa is an application for renting accommodations between individuals. It allows property owners to list their real estate for rent and tenants to find a place to rent.",
-      "The application consists of 3 pages: the homepage, the about page, and the detail page of a property. The application is responsive and was built using React with the assistance of SASS.",
-      "This project introduced me to the React framework and helped me understand how components, routes, and hooks work, particularly useState and useRef."
+      "Kasa is a project I developed using React and SCSS, it's a web application for renting properties at all prices."
     ],
     "technologies": [" React", "SASS"],
     "features": ["Routing", "display details of a property"],
@@ -34,11 +32,7 @@
     "github": "https://github.com/spectrenard/Kasa",
     "cover": "/Velare-thumbnail.webp",
     "photos": ["/PuzzleAI-thumbnail.webp", "", "", "", ""],
-    "description": [
-      "Kasa is an application for renting accommodations between individuals. It allows property owners to list their real estate for rent and tenants to find a place to rent.",
-      "The application consists of 3 pages: the homepage, the about page, and the detail page of a property. The application is responsive and was built using React with the assistance of SASS.",
-      "This project introduced me to the React framework and helped me understand how components, routes, and hooks work, particularly useState and useRef."
-    ],
+    "description": "Mon vieux grimoire is an online library project, I focused on the following features:\nCRUD (Create, Read, Update, Delete)\nAuthentication,\nToken generation,\nPassword hashing (bcrypt),\nImage optimization (multer/sharp)",
     "homepage": true
   }
 ]
