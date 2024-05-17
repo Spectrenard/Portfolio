@@ -79,7 +79,7 @@ function NavNoAnim() {
         </ul>
         <div className=" animate-appears1 opacity-0">
           <li className="list-none">
-            <div className="flex py-3 px-5  opacity-100 bg-radiusBgGray text-titleWhite rounded-full gap-2 underline relative">
+            <div className="flex py-3 px-5  opacity-100 bg-radiusBgGray text-titleWhite rounded-full gap-2 underline relative transition duration-200 hover:bg-titleGray">
               <Email />
             </div>
           </li>

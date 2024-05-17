@@ -84,7 +84,7 @@ function Nav() {
       {/* ****************NAV LINKS************* */}
       <div className="flex z-50 items-center fixed right-8 top-8 max-md:hidden ">
         <ul className="flex gap-9 items-center overflow-hidden pr-7">
-          <li className="flex text-md text-titleWhite animate-slideUp2">
+          <li className="flex text-md text-titleWhite animate-slideUp2 transition duration-200 ">
             <Link href="/about-me">About me</Link>
           </li>
           <li className="text-md text-titleWhite animate-slideUp3">
@@ -101,7 +101,7 @@ function Nav() {
         </ul>
         <div className=" animate-appears4 opacity-0">
           <li className="list-none">
-            <div className="flex py-3 px-5  opacity-100 bg-radiusBgGray text-titleWhite rounded-full gap-2 underline relative">
+            <div className="flex py-3 px-5  opacity-100 bg-radiusBgGray text-titleWhite rounded-full gap-2 underline relative transition duration-200 hover:bg-titleGray">
               <Email />
             </div>
           </li>
