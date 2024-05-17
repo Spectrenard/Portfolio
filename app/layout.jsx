@@ -1,5 +1,6 @@
 import { Bricolage_Grotesque } from "next/font/google";
 import localfont from "next/font/local";
+import Head from "next/head"; // Ajout de l'import de Head
 
 import "./globals.css";
 
@@ -28,6 +29,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={` ${brico.className} ${clash.variable}`}>
+      {Head(
+        <meta name="apple-mobile-web-app-capable" content="yes" />,
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />,
+        <link rel="apple-touch-startup-image" href="/bg-img.png" />
+      )}
       <body scroll-behavior="smooth">{children}</body>
     </html>
   );
