@@ -90,17 +90,18 @@ export default function About() {
         <div className="items-center justify-center flex-col">
           <div className="overflow-hidden my-10 xl:mb-5">
             <h2 className="text-xl xl:text-2xl text-textWhite animate-slideUps1">
-              With experience in a Creative Agency as a Graphic Designer and as
-              a UX/UI designer, I combine both fields to understand the needs of
-              brands and create experiences that bring them profit.
+              Hi, I‘m SAHIN Elyesa, a frontend web developer with a passion for
+              crafting exceptional user experiences and intuitive interfaces.
+              With a strong background in modern web technologies, I thrive on
+              building innovative solutions that drive engagement and
+              conversion.
             </h2>
           </div>
           <div className="overflow-hidden">
             <p className="text-textGray text-xl xl:text-2xl animate-slideUps2">
-              I have been designing and developing digital products for over 5
-              years, both as a full-time employee and as a freelancer working in
-              the gaming industry, through the legal industry, to goverment
-              projects.
+              When I‘m not coding, you can find me exploring the latest design
+              trends or experimenting with new technologies to stay ahead of the
+              curve.
             </p>
           </div>
           {/* Socials  */}
@@ -215,13 +216,13 @@ export default function About() {
               <div className="flex flex-col w-full gap-0 md:pl-10 max-sm:pt-8">
                 <AccordionFAQ
                   title="What is the cost of a project?"
-                  content="The cost of designing a website's UI & UX, along with development, can vary significantly depending on several factors, such as the complexity of the project, the scope of the project, the experience of the agency or designer, location, and additional services.
+                  content="The cost of designing a website's UI & UX, along with development, can vary significantly depending on several factors, such as the complexity of the project, the scope of the project, location and additional services.
 
-  Generally speaking, the cost can range from several thousand to fives o thousands of euros."
+  Generally speaking, the cost can range from several thousand to fives of thousands of euros."
                 />
                 <AccordionFAQ
                   title="Do you design e-commerce websites, and what features can be included?"
-                  content="Yes, I design e-commerce website and I also take care of their features. There are many different tools that you canuse within e-commerce website design, depending on your needs and brand specifications."
+                  content="Yes, I design e-commerce website and I also take care of their features. There are many different tools that you can use within e-commerce website design, depending on your needs and brand specifications."
                 />
 
                 <AccordionFAQ
