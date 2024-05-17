@@ -32,7 +32,10 @@ export default function RootLayout({ children }) {
       {Head(
         <meta name="apple-mobile-web-app-capable" content="yes" />,
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />,
-        <link rel="apple-touch-startup-image" href="/bg-img.png" />
+        <link
+          rel="apple-touch-startup-image"
+          href="/public/images/bg-img.png"
+        />
       )}
       <body scroll-behavior="smooth">{children}</body>
     </html>
