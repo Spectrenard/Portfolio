@@ -23,7 +23,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <div className="p-0 ">
+    <div className="p-0 animate-slideUp4">
       <div className="p-9 flex flex-col gap-48 rounded-3xl bg-gradient-to-r to-[#34383C] from-[#242629] via-[#242629]">
         <div className="flex lg:justify-between ">
           <div className="flex flex-col w-full gap-7 ">
