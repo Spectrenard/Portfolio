@@ -1,27 +1,24 @@
 [
   {
     "id": 1,
-    "name": "✦ Kasa",
-    "namesimple": "Kasa",
+    "name": "✦ SmartWallet",
+    "namesimple": "SmartWallet",
     "date": "2024",
-    "title": "Development & Design for renting plateform.",
-    "stack": "React SCSS",
-    "services": "Design & Development",
-    "theme": "Property rental platform - 2024",
-    "link": "kasa-elyesa-sahin.vercel.app/",
-    "github": "https://github.com/Spectrenard/P5-Kasa",
-    "cover": "/images/Kasa/KasaMockup.jpg",
+    "title": "Development of a budget management webapp",
+    "stack": "NextJS, TypeScript, Tailwind, Prisma, PostgreSQL",
+    "services": "Fullstack development",
+    "theme": "Personal Finance - 2024",
+    "link": "https://smart-wallet-gamma.vercel.app",
+    "github": "https://github.com/Spectrenard/SmartWallet",
+    "cover": "/images/SmartWallet/mockupSM.jpg",
     "photos": [
-      "/images/Kasa/about.png",
-      "/images/Kasa/accueil.png",
-      "/images/Kasa/carrousel.png",
-      "/images/Kasa/mobile.png"
+      "/images/SmartWallet/dashboardSM.png",
+      "/images/SmartWallet/dashboardSMres.png",
+      "/images/SmartWallet/budgetSM.png",
+      "/images/SmartWallet/TransactionSM.png",
+      "/images/SmartWallet/loginSM.png"
     ],
-    "description": [
-      "Kasa is a project I developed using React and SCSS, it's a web application for renting properties at all prices."
-    ],
-    "technologies": [" React", "SASS"],
-    "features": ["Routing", "display details of a property"],
+    "description": "SmartWallet is a budget management web application focused on tracking and managing expenses. It includes:\nReal-time expense tracking,\nGraphical report generation,\nAuthentication and authorization,\nAPI integration for currency conversion,\nResponsive design.",
     "homepage": true
   },
   {
@@ -43,6 +40,32 @@
       "/images/Grimoire/best.png"
     ],
     "description": "Mon vieux grimoire is an online library project, I focused on the following features:\nCRUD (Create, Read, Update, Delete)\nAuthentication,\nToken generation,\nPassword hashing (bcrypt),\nImage optimization (multer/sharp)",
+    "homepage": true
+  },
+
+  {
+    "id": 3,
+    "name": "✦ Kasa",
+    "namesimple": "Kasa",
+    "date": "2024",
+    "title": "Development & Design for renting plateform.",
+    "stack": "React SCSS",
+    "services": "Design & Development",
+    "theme": "Property rental platform - 2024",
+    "link": "kasa-elyesa-sahin.vercel.app/",
+    "github": "https://github.com/Spectrenard/P5-Kasa",
+    "cover": "/images/Kasa/KasaMockup.jpg",
+    "photos": [
+      "/images/Kasa/about.png",
+      "/images/Kasa/accueil.png",
+      "/images/Kasa/carrousel.png",
+      "/images/Kasa/mobile.png"
+    ],
+    "description": [
+      "Kasa is a project I developed using React and SCSS, it's a web application for renting properties at all prices."
+    ],
+    "technologies": [" React", "SASS"],
+    "features": ["Routing", "display details of a property"],
     "homepage": true
   }
 ]
