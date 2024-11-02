@@ -41,5 +41,26 @@
     ],
     "description": "Mon vieux grimoire is an online library project, I focused on the following features:\nCRUD (Create, Read, Update, Delete)\nAuthentication,\nToken generation,\nPassword hashing (bcrypt),\nImage optimization (multer/sharp)",
     "homepage": true
+  },
+  {
+    "id": 3,
+    "name": "✦ ES Web",
+    "namesimple": "ES Web",
+    "date": "2024",
+    "title": "Modern Website for Web Agency",
+    "stack": "Next.js, TypeScript, Tailwind CSS, Figma",
+    "services": "UI/UX Design, Frontend Development, Animation",
+    "theme": "Interactive Website - 2024",
+    "link": "https://es-web-seven.vercel.app",
+    "github": "https://github.com/Spectrenard/ES-Web",
+    "cover": "/images/ES-Web/header-esweb.png",
+    "photos": [
+      "/images/ES-Web/header-esweb.png",
+      "/images/ES-Web/services-esweb.png",
+      "/images/ES-Web/contact-esweb.png",
+      "/images/ES-Web/mobile-esweb.png"
+    ],
+    "description": "ES Web is a modern website built with Next.js and TypeScript showcasing web agency services. Features include:\n\n- Clean design with glassmorphism effects and smooth animations\n- Fully responsive interface optimized for all devices\n- Custom animations and interactive components\n- Performance optimized with Next.js best practices",
+    "homepage": true
   }
 ]
