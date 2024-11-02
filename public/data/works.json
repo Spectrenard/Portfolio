@@ -8,7 +8,7 @@
     "stack": "NextJS, TypeScript, Tailwind, Prisma, PostgreSQL",
     "services": "Fullstack development",
     "theme": "Personal Finance - 2024",
-    "link": "https://smart-wallet-gamma.vercel.app",
+    "link": "smart-wallet-gamma.vercel.app",
     "github": "https://github.com/Spectrenard/SmartWallet",
     "cover": "/images/SmartWallet/mockupSM.jpg",
     "photos": [
@@ -51,7 +51,7 @@
     "stack": "Next.js, TypeScript, Tailwind CSS, Figma",
     "services": "UI/UX Design, Frontend Development, Animation",
     "theme": "Interactive Website - 2024",
-    "link": "https://es-web-seven.vercel.app",
+    "link": "es-web-seven.vercel.app",
     "github": "https://github.com/Spectrenard/ES-Web",
     "cover": "/images/ES-Web/header-esweb.png",
     "photos": [
