@@ -2,6 +2,7 @@ import { Bricolage_Grotesque } from "next/font/google";
 import localfont from "next/font/local";
 import Head from "next/head"; // Ajout de l'import de Head
 
+import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 const brico = Bricolage_Grotesque({
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         <link rel="apple-touch-startup-image" href="/bg-img.png" />
       )}
       <body scroll-behavior="smooth">{children}</body>
+      <Analytics />
     </html>
   );
 }
