@@ -29,14 +29,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={` ${brico.className} ${clash.variable}`}>
-      {Head(
-        <meta name="apple-mobile-web-app-capable" content="yes" />,
-        <meta name="apple-mobile-web-app-status-bar-style" content="default" />,
+    <html lang="fr" className={`${brico.className} ${clash.variable}`}>
+      <head>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <link rel="apple-touch-startup-image" href="/bg-img.png" />
-      )}
-      <body scroll-behavior="smooth">{children}</body>
-      <Analytics />
+      </head>
+      <body scroll-behavior="smooth">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
