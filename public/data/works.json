@@ -23,23 +23,24 @@
   },
   {
     "id": 2,
-    "name": "✦ Mon vieux grimoire",
-    "namesimple": "Mon vieux grimoire",
+    "name": "✦ MovieScope",
+    "namesimple": "MovieScope",
     "date": "2024",
-    "title": "Development of a library webapp",
-    "stack": "NodeJS Express",
-    "services": "Fullstack development",
-    "theme": "Digital library - 2024",
-    "link": "No website",
-    "github": "https://github.com/Spectrenard/Mon-vieux-grimoire---P6",
-    "cover": "/images/Grimoire/MockupGrimoire.jpg",
+    "title": "Development of a movie discovery web application",
+    "stack": "Next.js 14, TypeScript, Tailwind CSS, Framer Motion, TMDB API",
+    "services": "Frontend Development",
+    "theme": "Entertainment - 2024",
+    "link": "www.moviescope.site/",
+    "alternativeLink": "https://movie-scope-two.vercel.app/",
+    "github": "https://github.com/Spectrenard/MovieScope",
+    "cover": "/images/MovieScope/cover-movie.jpg",
     "photos": [
-      "/images/Grimoire/login.png",
-      "/images/Grimoire/accueil.png",
-      "/images/Grimoire/book.png",
-      "/images/Grimoire/best.png"
+      "/images/MovieScope/header-movie.png",
+      "/images/MovieScope/top-movie.png",
+      "/images/MovieScope/movie-movie.png",
+      "/images/MovieScope/responsive-movie.png"
     ],
-    "description": "Mon vieux grimoire is an online library project, I focused on the following features:\nCRUD (Create, Read, Update, Delete)\nAuthentication,\nToken generation,\nPassword hashing (bcrypt),\nImage optimization (multer/sharp)",
+    "description": "MovieScope is a modern movie discovery web application designed to help users easily find their next movie. It includes:\nReal-time search,\nCategory filtering (top-rated, now playing, genres),\nFavorites management,\nTMDB API integration,\nResponsive design and smooth animations.",
     "homepage": true
   },
   {
@@ -61,6 +62,27 @@
       "/images/ES-Web/mobile-esweb.png"
     ],
     "description": "ES Web is a modern website built with Next.js and TypeScript showcasing web agency services. Features include:\n\n- Clean design with glassmorphism effects and smooth animations\n- Fully responsive interface optimized for all devices\n- Custom animations and interactive components\n- Performance optimized with Next.js best practices",
+    "homepage": true
+  },
+  {
+    "id": 4,
+    "name": "✦ Mon vieux grimoire",
+    "namesimple": "Mon vieux grimoire",
+    "date": "2024",
+    "title": "Development of a library webapp",
+    "stack": "NodeJS Express",
+    "services": "Fullstack development",
+    "theme": "Digital library - 2024",
+    "link": "No website",
+    "github": "https://github.com/Spectrenard/Mon-vieux-grimoire---P6",
+    "cover": "/images/Grimoire/MockupGrimoire.jpg",
+    "photos": [
+      "/images/Grimoire/login.png",
+      "/images/Grimoire/accueil.png",
+      "/images/Grimoire/book.png",
+      "/images/Grimoire/best.png"
+    ],
+    "description": "Mon vieux grimoire is an online library project, I focused on the following features:\nCRUD (Create, Read, Update, Delete)\nAuthentication,\nToken generation,\nPassword hashing (bcrypt),\nImage optimization (multer/sharp)",
     "homepage": true
   }
 ]

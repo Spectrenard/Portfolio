@@ -92,9 +92,8 @@ export default function About() {
             <h2 className="text-xl xl:text-2xl text-textWhite animate-slideUps1">
               Hi, I‘m SAHIN Elyesa, a frontend web developer with a passion for
               crafting exceptional user experiences and intuitive interfaces.
-              With a strong background in modern web technologies, I thrive on
-              building innovative solutions that drive engagement and
-              conversion.
+              With a mastery in modern web technologies, I thrive on building
+              innovative solutions that drive engagement and conversion.
             </h2>
           </div>
           <div className="overflow-hidden">
