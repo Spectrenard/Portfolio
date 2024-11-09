@@ -23,7 +23,7 @@ export default function Socials() {
             </span>
           </Link>
         </li> */}
-        <li className="flex text-titleWhite gap-2 animate-appearsAzra opacity-0">
+        {/* <li className="flex text-titleWhite gap-2 animate-appearsAzra opacity-0">
           <Link
             href="https://www.linkedin.com/in/elyesa-s-858205304/"
             target="_blank"
@@ -40,7 +40,7 @@ export default function Socials() {
               <span className="ml-2">LinkedIn</span>
             </span>
           </Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
