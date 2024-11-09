@@ -80,7 +80,7 @@ export default function Footer() {
           </div>
 
           <div className="">
-            <h1 className="text-footerDateTitle mb-4">Socials</h1>
+            {/* <h1 className="text-footerDateTitle mb-4">Socials</h1> */}
             <Socials />
           </div>
         </div>
