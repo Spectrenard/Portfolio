@@ -23,24 +23,7 @@ export default function Socials() {
             </span>
           </Link>
         </li>
-        <li className="flex text-titleWhite gap-2 animate-appearsAzra opacity-0">
-          <Link
-            href="https://www.linkedin.com/in/elyesa-s-858205304/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="flex items-center">
-              <Image
-                className="text-red-300"
-                src={"/images/LinkedIn.svg"}
-                height={23}
-                width={23}
-                alt="linkedinicon"
-              />
-              <span className="ml-2">LinkedIn</span>
-            </span>
-          </Link>
-        </li>
+        <li className="flex text-titleWhite gap-2 animate-appearsAzra opacity-0"></li>
       </ul>
     </div>
   );
