@@ -84,5 +84,26 @@
     ],
     "description": "Mon vieux grimoire is an online library project, I focused on the following features:\nCRUD (Create, Read, Update, Delete)\nAuthentication,\nToken generation,\nPassword hashing (bcrypt),\nImage optimization (multer/sharp)",
     "homepage": true
+  },
+  {
+    "id": 5,
+    "name": "✦ CodeSnippet",
+    "namesimple": "CodeSnippet",
+    "date": "2025",
+    "title": "Development of a code snippet management platform",
+    "stack": "Next.js, Node.js, Express, Prisma, PostgreSQL, OAuth",
+    "services": "Fullstack Development",
+    "theme": "Developer Tools - 2025",
+    "link": "codesnippet-app.vercel.app",
+    "github": "https://github.com/Spectrenard/CodeSnippet",
+    "cover": "/images/CodeSnippet/CSMockup.jpg",
+    "photos": [
+      "/images/CodeSnippet/snippetpage.png",
+      "/images/CodeSnippet/hub.png",
+      "/images/CodeSnippet/snippetform.png",
+      "/images/CodeSnippet/profile.png"
+    ],
+    "description": "CodeSnippet is a modern platform for developers to manage and share code snippets. Key features include:\nAdvanced code editor with syntax highlighting,\nPublic/private snippet management,\nSocial features (likes, bookmarks),\nGoogle & GitHub OAuth integration,\nResponsive design and dark mode support.",
+    "homepage": true
   }
 ]
