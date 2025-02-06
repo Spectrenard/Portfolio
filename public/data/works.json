@@ -94,7 +94,7 @@
     "stack": "Next.js, Node.js, Express, Prisma, PostgreSQL, OAuth",
     "services": "Fullstack Development",
     "theme": "Developer Tools - 2025",
-    "link": "codesnippet-app.vercel.app",
+    "link": "code-snippet-mocha.vercel.app",
     "github": "https://github.com/Spectrenard/CodeSnippet",
     "cover": "/images/CodeSnippet/CSMockup.jpg",
     "photos": [
