@@ -105,5 +105,26 @@
     ],
     "description": "CodeSnippet is a modern platform for developers to manage and share code snippets. Key features include:\nAdvanced code editor with syntax highlighting,\nPublic/private snippet management,\nSocial features (likes, bookmarks),\nGoogle & GitHub OAuth integration,\nResponsive design and dark mode support.",
     "homepage": true
+  },
+  {
+    "id": 7,
+    "name": "✦ PumpFinder",
+    "namesimple": "PumpFinder",
+    "date": "2025",
+    "title": "Real-time Fuel Price Finder",
+    "stack": "Next.js, Leaflet, Tailwind CSS",
+    "services": "Frontend Development, API Integration",
+    "theme": "Location-based Services - 2025",
+    "link": "pump-finder.vercel.app",
+    "github": "https://github.com/Spectrenard/PumpFinder",
+    "cover": "/images/PumpFinder/mockup.png",
+    "photos": [
+      "/images/PumpFinder/home.png",
+      "/images/PumpFinder/map.png",
+      "/images/PumpFinder/sidebar.png",
+      "/images/PumpFinder/overview.png"
+    ],
+    "description": "PumpFinder is a web application that helps users find the cheapest fuel stations nearby. Key features include:\nReal-time fuel price updates,\nInteractive map with location markers,\nSearch functionality for cities and addresses,\nResponsive design with mobile support.",
+    "homepage": true
   }
 ]
